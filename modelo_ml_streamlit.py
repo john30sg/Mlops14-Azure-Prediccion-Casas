@@ -42,9 +42,9 @@ def prediccion_o_inferencia(pipeline_de_test, datos_de_test):
 
 
 #Diseno de la Interface
-st.title("Proyecto Modelo Lasso Regressor - John Sandoval - DATAPATH")
+st.title("Proyecto Modelo Lasso Regressor - John Sandoval Guerra - DATAPATH")
 
-image = Image.open('images/datapath-logo.png') #src/
+image = Image.open('images/logo-banco-Galicia.png') #src/
 st.image(image, use_container_width=True) #use_column_width esta "deprecated"
 
 st.sidebar.write("Suba el archivo CSV correspondiente para realizar la predicción")
